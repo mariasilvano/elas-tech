@@ -71,6 +71,7 @@ public class AtividadeHashSet {
         cpfSet.addAll(List.of("394.719.050-60", "722.245.370-93", "568.332.150-65"));
 
         System.out.println(cpfSet);
+        System.out.println(cpfSet.size());
 
         cpfSet.remove("722.245.370-93");
 
