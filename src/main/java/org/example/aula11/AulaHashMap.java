@@ -1,5 +1,6 @@
 package org.example.aula11;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class AulaHashMap {
@@ -29,5 +30,17 @@ public class AulaHashMap {
 
         System.out.println(emails.keySet());
         System.out.println(emails.values());
+
+        ArrayList<String> filmesDeTerror = new ArrayList<>();
+
+        filmesDeTerror.add("A freira");
+        filmesDeTerror.add("A freira2");
+        filmesDeTerror.add("Terror 1");
+        filmesDeTerror.add("Terror 2");
+
+        HashMap<String, ArrayList>  catalogo = new HashMap<>();
+        catalogo.put("Terror", filmesDeTerror);
+
+        System.out.println(catalogo);
     }
 }
