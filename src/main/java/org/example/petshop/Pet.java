@@ -1,23 +1,50 @@
 package org.example.petshop;
 
-public class Pet {
+public abstract class Pet {
     //4. Juntando tudo num objeto
-    public String nome;
-    public String especie;
-    public double peso;
-    public String porte;
+    private String nome;
+    private String especie;
+    private double peso;
 
-    public void definirPorte(){
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEspecie() {
+        return especie;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public Pet(String nome, String especie, double peso) {
+        this.nome = nome;
+        this.especie = especie;
+        this.peso = peso;
+    }
+
+    public String getPorte() {
         if(peso < 10){
-            porte = "Pequeno";
+          return  "Pequeno";
         }else if(peso<25){
-            porte = "Médio";
+            return "Médio";
         }else{
-            porte = "Grande";
+            return "Grande";
         }
     }
 
-    public void emitirSom(){
-        System.out.println("Emitindo som...");
+    public void setEspecie(String especie) {
+        this.especie = especie;
     }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public abstract String emitirSom();
 }
