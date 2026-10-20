@@ -40,5 +40,11 @@ public class AtividadeRevisao {
         folhaPagamento2.pagar(gerente);
         folhaPagamento2.pagar(desenvolvedor);
 
+
+        Brinquedo brinquedo01 = new Brinquedo("Boneca");
+
+        brinquedo01.verBrinquedo(brinquedo01);
+
+
     }
 }
