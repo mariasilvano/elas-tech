@@ -1,4 +1,4 @@
-package org.example.aula19;
+package org.example.aula19.factory;
 
 public class BancoDeDadosFactory {
 
