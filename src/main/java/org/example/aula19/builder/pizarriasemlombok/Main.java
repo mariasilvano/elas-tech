@@ -1,4 +1,4 @@
-package org.example.aula19.builder;
+package org.example.aula19.builder.pizarriasemlombok;
 
 public class Main {
 
@@ -8,6 +8,8 @@ public class Main {
                 .sabor("Mussarela")
                 .temQueijo(true)
                 .build();
+
+        pizza.mostrar();
 
     }
 }
