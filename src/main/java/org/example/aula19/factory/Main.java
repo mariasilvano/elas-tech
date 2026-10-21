@@ -1,4 +1,4 @@
-package org.example.aula19;
+package org.example.aula19.factory;
 
 import java.util.Scanner;
 
