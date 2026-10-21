@@ -1,6 +1,4 @@
-package org.example.aula19.builder;
-
-import org.example.atividadeconstrutores.Agendamento;
+package org.example.aula19.builder.refactoragendamento;
 
 public class MainRefactor {
     public static void main(String[] args) {
