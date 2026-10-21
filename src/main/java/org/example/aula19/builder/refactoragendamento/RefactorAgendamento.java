@@ -1,4 +1,4 @@
-package org.example.aula19.builder;
+package org.example.aula19.builder.refactoragendamento;
 
 import lombok.Builder;
 
