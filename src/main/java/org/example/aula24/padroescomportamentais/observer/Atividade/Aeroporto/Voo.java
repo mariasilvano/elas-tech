@@ -1,6 +1,4 @@
-package org.example.aula24.padroescomportamentais.observer.Atividade;
-
-import org.example.aula24.padroescomportamentais.observer.Inscrito;
+package org.example.aula24.padroescomportamentais.observer.Atividade.Aeroporto;
 
 import java.util.ArrayList;
 
