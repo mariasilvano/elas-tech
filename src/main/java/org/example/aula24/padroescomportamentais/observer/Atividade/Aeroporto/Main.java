@@ -1,4 +1,4 @@
-package org.example.aula24.padroescomportamentais.observer.Atividade;
+package org.example.aula24.padroescomportamentais.observer.Atividade.Aeroporto;
 
 public class Main {
     static void main() {

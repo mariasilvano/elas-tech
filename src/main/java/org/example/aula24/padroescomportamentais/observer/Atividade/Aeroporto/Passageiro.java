@@ -1,6 +1,6 @@
-package org.example.aula24.padroescomportamentais.observer.Atividade;
+package org.example.aula24.padroescomportamentais.observer.Atividade.Aeroporto;
 
-public class Passageiro implements ObservadorVoo{
+public class Passageiro implements ObservadorVoo {
     private String nome;
 
     public Passageiro(String nome){

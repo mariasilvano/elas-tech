@@ -1,6 +1,6 @@
-package org.example.aula24.padroescomportamentais.observer.Atividade;
+package org.example.aula24.padroescomportamentais.observer.Atividade.Aeroporto;
 
-public class PainelAeroporto implements ObservadorVoo{
+public class PainelAeroporto implements ObservadorVoo {
 
     @Override
     public void atualizar(String status, int numeroVoo) {
