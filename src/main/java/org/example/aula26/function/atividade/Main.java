@@ -1,4 +1,4 @@
-package org.example.aula26.function;
+package org.example.aula26.function.atividade;
 
 import java.util.function.Function;
 
